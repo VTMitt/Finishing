@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+.title {
+  font-size: 0.9rem;
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 1em;
+  padding: 0.1em;
+}
+
+#map {
+  align-self: auto;
+  height: 50vh;
+  width: 25vw;
+  border-radius: 20px;
+  box-shadow: black;
+}
+@media (max-width: 800px) {
+  input {
+    font-size: 0.7rem;
+  }
+  .box {
+    font-size: 0.7rem;
+  }
+  button {
+    font-size: 0.7rem;
+  }
+  .title {
+    font-size: 0.8rem;
+  }
+  label {
+    font-size: 0.7rem;
+  }
+  #map {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    height: 80vh;
+  }
+  #chart2 {
+    width: 90vw;
+  }
+  #chart3 {
+    width: 90vw;
+  }
+  #chart {
+    width: 90vw;
+  }
+}
+#allThing {
+  text-align: center;
+  background-color: grey;
+  font-size: 1rem;
+}
+@media (min-width: 800px) {
+  label {
+    font-size: 200%;
+  }
+  .title {
+    font-size: 250%;
+  }
+  #map {
+    width: 40%;
+    height: 80vh;
+  }
+  select {
+    font-size: 1rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  input {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1600px) {
+  label {
+    font-size: 400%;
+  }
+  .title {
+    font-size: 500%;
+  }
+  #map {
+    width: 40%;
+    height: 80vh;
+  }
+  select {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 2rem;
+  }
+  input {
+    font-size: 2rem;
+  }
+}
